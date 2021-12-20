@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: blanchedalmond;
+    color: orange;
+    padding: 10px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.body-component {
+    background-color: rgb(230, 220, 220);
+    min-height: 800px;
+    padding: 32px;
+}
+
+.content-component {
+    margin: auto;
+    max-width: 1000px;
+    min-width: 315px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.add-component {
+    min-height: 50px;
+    padding: 8px;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+.add-station-name {
+    padding: 6px 16px;
+    outline: none;
+    margin-right: 3px;
+    margin-bottom: 10px;
+  }
+
+  .add-station-time {
+    width: 60px;
+    padding: 6px 6px;
+    outline: none;
+    margin-right: 3px;
+    margin-bottom: 10px; 
+  }
+
+.departure-component {
+    min-height: 100px;
+    padding: 8px;
+    margin: 16px;
+    border-radius: 8px;
+    background-color: #c6ffe2;
+}
+
+.destination-component {
+    min-height: 100px;
+    padding: 8px;
+    margin: 16px;
+    border-radius: 8px;
+    background-color: #ffffe0;
+}
+
+.select-component {
+    min-height: 50px;
+    padding: 8px;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 16px;
+    border: none;
+    padding: 4px 16px;
+    margin-right: 3px;
+  }
+  
+  button:hover {
+    background-color: #e9b8e9;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .add-station {
+      background-color: rgb(243, 158, 205);
+  }
+
+.result-component {
+    height: 130px;
+    padding: 8px;
+    margin: 16px;
+    border-radius: 8px;
+    background-color: khaki;
+    text-align: center;
+}
+
+.time-block {
+    min-width: 60px;
+    max-width: 80px;
+    height: 40px;
+    padding: 10px;
+    background-color: grey;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: yellow;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.result-button {
+    border-radius: 16px;
+    border: none;
+    padding: 4px 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+.result-button:hover {
+    background-color: #ff7fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
